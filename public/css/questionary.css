@@ -1,0 +1,211 @@
+.qiestionary__container{
+    width: 1440px;
+    height: 688px;
+    margin: 0 auto;
+    padding: 74px 0 0 58px;
+    display: flex;
+}
+.qiestionary__left-block{
+    position: relative;
+}
+.qiestionary__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.qiestionary__input, .qiestionary__select{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    width: 404px;
+    height: 55px;
+    padding-left: 34px;
+    outline: none;
+    margin-top: 26px;
+}
+.qiestionary__title-input{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    margin-top: 45px;
+}
+.qiestionary__select{
+    padding-top: 18px;
+    height: 37px;
+    cursor: pointer;
+}
+.qiestionary__select:hover ~ .qiestionary__cityes-ul{
+    display: block;
+}
+.qiestionary__cityes-ul{
+    width: 280px;
+    height: 200px;
+    overflow: auto;
+    overflow-x: hidden;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    left: 24px;
+    bottom: -43px;
+    display: none;
+    z-index: 10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.qiestionary__cityes-ul:hover{
+    display: block;
+}
+.qiestionary__city, .qiestionary__category{
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    transition: .3s;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    width: 100%;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.qiestionary__city:hover, .qiestionary__category:hover{
+    background-color: #FFAA04;
+}
+.qiestionary__right-block{
+    margin-left: 67px;
+    position: relative;
+    width: 785px;
+}
+.qiestionary__info-input{
+    margin-top: 26px;
+    width: 509px;
+    height: 64px;
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 30px;
+}
+.qiestionary__handler-div{
+    display: flex;   
+    width: 252px;
+    align-items: center;
+    position: absolute;
+    bottom: 85px;
+    right: 113px;
+}
+.qiestionary__counter{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.qiestionary__handler{
+    background: #FFAA04;
+    border-radius: 5px;
+    width: 161px;
+    height: 52px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 24px;
+    outline: none;
+}
+.qiestionary__min-info{
+    margin-top: 84px;
+}
+.not-valid{
+    border: 2px solid red;
+}
+.qiestionary__categories-ul{
+    width: 280px;
+    height: 200px;
+    overflow: auto;
+    overflow-x: hidden;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    left: 24px;
+    bottom: 85px;
+    display: none;
+    z-index: 10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.qiestionary__categories-ul:hover{
+    display: block;
+}
+.qiestionary__select:hover ~ .qiestionary__categories-ul{
+    display: block
+}
+.not-valid-check{
+    color: red
+}
+.qiestionary__checkbox{
+    display: none;
+}
+.qiestionary__check-label{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.qiestionary__fake-checkbox{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.qiestionary__checkbox:checked + .qiestionary__fake-checkbox{
+    background: #FFAA04;
+    box-shadow: 0px 0px 4px #FFAA04;
+}
+.qiestionary__check-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #141313;
+    margin-left: 13px;
+}
+#variants-pay{
+    margin-bottom: 35px;
+}
+#view-pay{
+    margin: 89px 0 35px 0px;
+}
+#right-delivery{
+    margin-top: 92px;
+}
+#qiestionary__photo-input{
+    display: none;
+}
+.qiestionary__photo-label{
+    display: block;
+    margin-top: 48px;
+    width: 490px;
+    height: 152px;
+    background-color: #C4C4C4;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    padding-top: 106px;
+}

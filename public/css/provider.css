@@ -1,0 +1,192 @@
+.provider__card{
+    height: 553px;
+    width: 100%;
+    padding-top: 145px;
+}
+.provider__card__container{
+    width: 1284px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    background: #141313;
+}
+.provider__img{
+    width: 400px;
+    height: 400px;
+}
+.provider__card__name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.provider__card__special{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F09819;
+    margin-top: 12px;
+}
+.location{
+    widows: 14px;
+    height: 20px;
+}
+.location-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #918f8f;
+    margin-left: 10px;
+}
+.provider__card__desc{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 568px;
+    margin-top: 28px;
+}
+.provider__card__number{
+    width: 176px;
+    height: 40px;
+    background-color: #F09819;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.provider__card__write{
+    width: 139px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 17px;
+}
+.provider__card__location{
+    display: flex
+}
+.provider__card__content{
+    margin: 82px 0 0 46px;
+}
+.provider__card__location{
+    margin-top: 11px;
+}
+.provider__card__btn{
+    margin-top: 37px;
+}
+.provider__info{
+    width: 100%;
+    height: 1100px;
+    background-image: url('/img/provider-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.provider__info__container{
+    height: 100%;
+    width: 1010px;
+    margin: 0 auto;
+    padding: 79px 0 0 58px
+}
+.provider__info__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.provider__info__payment-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.provider__info__subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.provider__info__payment-ul{
+    list-style-type: none;
+    /* padding-top: 13px; */
+}
+.provider__info__payment-ul li{
+    background: url(/img/marker.png) no-repeat;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+    width: 400px;
+    text-align: center;
+    height: 25px;
+    line-height: 1.5;
+}
+.provider__info__payment__ul-block{
+    margin-top: 36px;
+}
+.provider__info__terms-deveryli__text{
+    width: 397px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    line-height: 22px;
+    margin-top: 36px;
+}
+.diveryli{
+    margin-top: 124px;
+}
+.provider__info__terms-trade{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 68px;
+}
+.provider__info__terms-trade__text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.provider__photo{
+    width: 100%;
+    height: 475px;
+    padding-top: 114px;  
+}
+.provider__photo__container{
+    width: 1284px;
+    height: 100%;
+    margin: 0 auto;
+}
+.provider__photo__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+.provider__photo__block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 84px;
+}
+.provider__photo__img{
+    width: 380px;
+    height: 250px;
+}

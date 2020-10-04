@@ -1,0 +1,149 @@
+<%- include('./templates/header.ejs') %>
+
+
+    <div class="qiestionary__container">
+        <div class="qiestionary__left-block">
+            <h2 class="qiestionary__title">Общая информация</h2>
+            <p class="qiestionary__title-input">Имя<span class="optom">*</span></p>
+            <input class="qiestionary__input" type="text" name="name" placeholder="Введите ваше имя">
+            <p class="qiestionary__title-input">Фамилия</span></p>
+            <input class="qiestionary__input" type="text" name="firstName" placeholder="Введите вашу фамилию">
+            <p class="qiestionary__title-input">Регион<span class="optom">*</span></p>
+            <div class="qiestionary__select" id="qiestionary__select1">Выберите ваш регион</div>
+            <ul class="qiestionary__cityes-ul">
+                <li class="qiestionary__city">Алтайский край</li>
+                <li class="qiestionary__city">Амурская область</li>
+                <li class="qiestionary__city">Архангельская область</li>
+                <li class="qiestionary__city">Астраханская область</li>
+                <li class="qiestionary__city">Белгородская область</li>
+                <li class="qiestionary__city">Брянская область</li>
+                <li class="qiestionary__city">Владимирская область</li>
+                <li class="qiestionary__city">Волгоградская область</li>
+                <li class="qiestionary__city">Вологодская область</li>
+                <li class="qiestionary__city">Воронежская область</li>
+                <li class="qiestionary__city">Москвовская область</li>
+                <li class="qiestionary__city">Еврейская а.о.</li>
+                <li class="qiestionary__city">Забайкальский край</li>
+                <li class="qiestionary__city">Ивановская область</li>
+                <li class="qiestionary__city">Иркутская область</li>
+                <li class="qiestionary__city">Кабардино-Балкарская Р.</li>
+                <li class="qiestionary__city">Калининградская область</li>
+                <li class="qiestionary__city">Калужская область</li>
+                <li class="qiestionary__city">Камчатский край</li>
+                <li class="qiestionary__city">Карачаево-Черкесская Р.</li>
+                <li class="qiestionary__city">Кемеровская область</li>
+                <li class="qiestionary__city">Кировская область</li>
+                <li class="qiestionary__city">Костромская область</li>
+                <li class="qiestionary__city">Краснодарский край</li>
+                <li class="qiestionary__city">Красноярский край</li>
+                <li class="qiestionary__city">Курганская область</li>
+                <li class="qiestionary__city">Курская область</li>
+                <li class="qiestionary__city">Ленинградская область</li>
+                <li class="qiestionary__city">Липецкая область</li>
+                <li class="qiestionary__city">Магаданская область</li>
+                <li class="qiestionary__city">Московская область</li>
+                <li class="qiestionary__city">Мурманская область</li>
+                <li class="qiestionary__city">Ненецкий а.о.</li>
+                <li class="qiestionary__city">Нижегородская область</li>
+                <li class="qiestionary__city">Новгородская область</li>
+                <li class="qiestionary__city">Новосибирская область</li>
+                <li class="qiestionary__city">Омская область</li>
+                <li class="qiestionary__city">Оренбургская область</li>
+                <li class="qiestionary__city">Орловская область</li>
+                <li class="qiestionary__city">Пензенская область</li>
+                <li class="qiestionary__city">Пермский край</li>
+                <li class="qiestionary__city">Приморский край</li>
+                <li class="qiestionary__city">Псковская область</li>
+                <li class="qiestionary__city">Республика Адыгея</li>
+                <li class="qiestionary__city">Республика Алтай</li>
+                <li class="qiestionary__city">Республика Башкортостан</li>
+                <li class="qiestionary__city">Республика Бурятия</li>
+                <li class="qiestionary__city">Республика Дагестан</li>
+                <li class="qiestionary__city">Республика Ингушетия</li>
+                <li class="qiestionary__city">Республика Калмыкия</li>
+                <li class="qiestionary__city">Республика Карелия</li>
+                <li class="qiestionary__city">Республика Коми</li>
+                <li class="qiestionary__city">Республика Крым</li>
+                <li class="qiestionary__city">Республика Марий Эл</li>
+                <li class="qiestionary__city">Республика Мордовия</li>
+                <li class="qiestionary__city">Р. Саха (Якутия)</li>
+                <li class="qiestionary__city">Р. Северная Осетия</li>
+                <li class="qiestionary__city">Республика Татарстан</li>
+                <li class="qiestionary__city">Республика Тыва</li>
+                <li class="qiestionary__city">Республика Хакасия</li>
+                <li class="qiestionary__city">Ростовская область</li>
+                <li class="qiestionary__city">Рязанская область</li>
+                <li class="qiestionary__city">Самарская область</li>
+                <li class="qiestionary__city">Санкт-Петербург</li>
+                <li class="qiestionary__city">Саратовская область</li>
+                <li class="qiestionary__city">Свердловская область</li>
+                <li class="qiestionary__city">Севастополь</li>
+                <li class="qiestionary__city">Смоленская область</li>
+                <li class="qiestionary__city">Ставропольский край</li>
+                <li class="qiestionary__city">Тамбовская область</li>
+                <li class="qiestionary__city">Тверская область</li>
+                <li class="qiestionary__city">Томская область</li>
+                <li class="qiestionary__city">Тульская область</li>
+                <li class="qiestionary__city">Тюменская область</li>
+                <li class="qiestionary__city">Удмуртская Республика</li>
+                <li class="qiestionary__city">Ульяновская область</li>
+                <li class="qiestionary__city">Хабаровский край</li>
+                <li class="qiestionary__city">Ханты-Мансийский а.о.</li>
+                <li class="qiestionary__city">Челябинская область</li>
+                <li class="qiestionary__city">Чеченская Республика</li>
+                <li class="qiestionary__city">Чувашская Республика</li>
+                <li class="qiestionary__city">Чукотский а.о.</li>
+                <li class="qiestionary__city">Ямало-Ненецкий а.о.</li>
+                <li class="qiestionary__city">Ярославская область</li>
+            </ul>
+        </div>
+            <div class="qiestionary__right-block">
+                <h2 class="qiestionary__title-input qiestionary__min-info">Краткая информация<span class="optom">*</span></h2>
+                <textarea class="qiestionary__info-input" name="firstName" placeholder="Напишите о себе и о товарах, которые вы продаёте"></textarea>
+                <div class="qiestionary__title-input">Категория товара<span class="optom">*</span></div>
+                <div class="qiestionary__select" id="qiestionary__select2">Выбрите категорию товара</div>
+                <ul class="qiestionary__categories-ul">
+                    <li class="qiestionary__category">Одежда и обувь</li>
+                    <li class="qiestionary__category">Строительство</li>
+                    <li class="qiestionary__category">Продукты питания</li>
+                    <li class="qiestionary__category">Мебель</li>
+                    <li class="qiestionary__category">Товары для детей</li>
+                    <li class="qiestionary__category">Бытовые товары</li>
+                    <li class="qiestionary__category">Оборудование</li>
+                    <li class="qiestionary__category">Авто-мото</li>
+                    <li class="qiestionary__category">Бизнес-услуги</li>
+                    <li class="qiestionary__category">Бытовая техника</li>
+                    <li class="qiestionary__category">Изделия для производства</li>
+                    <li class="qiestionary__category">Инструмент</li>
+                    <li class="qiestionary__category">Канцелярские товары</li>
+                    <li class="qiestionary__category">Климатическая техника</li>
+                    <li class="qiestionary__category">Кожгалантерея</li>
+                    <li class="qiestionary__category">Красота и здоровье</li>
+                    <li class="qiestionary__category">Медицинские товары</li>
+                    <li class="qiestionary__category">Подарки и сувениры</li>
+                    <li class="qiestionary__category">Сантехника</li>
+                    <li class="qiestionary__category">Сельское хозяйство</li>
+                    <li class="qiestionary__category">Спортивные товары</li>
+                    <li class="qiestionary__category">Средства связи</li>
+                    <li class="qiestionary__category">Строительные конструкции</li>
+                    <li class="qiestionary__category">Сумки и рюкзаки</li>
+                    <li class="qiestionary__category">Сырьё</li>
+                    <li class="qiestionary__category">Текстиль</li>
+                    <li class="qiestionary__category">Товары для животных</li>
+                    <li class="qiestionary__category">Товары для праздников</li>
+                    <li class="qiestionary__category">Товары для творчества</li>
+                    <li class="qiestionary__category">Упаковочные материалы</li>
+                    <li class="qiestionary__category">Электроника</li>
+                    <li class="qiestionary__category">Ювелирные изделия и бижутерия</li>
+                    <li class="qiestionary__category">Прочее</li>
+                </ul>
+            </div>
+                    <div class="qiestionary__handler-div">
+                        <div class="qiestionary__counter">02/04</div>
+                        <button class="qiestionary__handler">Далее ></button>
+                    </div>
+            
+    </div>
+
+
+<%- include('./templates/footer.ejs') %>

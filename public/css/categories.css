@@ -1,0 +1,74 @@
+.categories-page__title-block{
+    width: 100%;
+    /* background: #FFAA04; */
+    height: 150px;
+}
+.categories-page__title-block__title{
+    width: 1296px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.categories-page__title-block__title h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+}
+.categories-page__categories-container{
+    height: 590px;
+    width: 1296px;
+    margin: 0 auto;
+    /* margin-top: 109px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categories-page__category-block1, .categories-page__category-block2, .categories-page__category-block3, .categories-page__category-block4, .categories-page__category-block5, .categories-page__category-block6{
+    width: 400px;
+    height: 250px;
+}
+.categories-page__category-block1{
+    background-image: url('../img/cloth.png');
+}
+.categories-page__category-block2{
+    background-image: url('../img/wood.png');
+}
+.categories-page__category-block3{
+    background-image: url('../img/food.png');
+}
+.categories-page__category-block4{
+    background-image: url('../img/comfort.png');
+}
+.categories-page__category-block5{
+    background-image: url('../img/child.png');
+}
+.categories-page__category-block6{
+    background-image: url('../img/more.png');
+}
+.categories-page__subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 205px 0 0 20px;
+    color: #fff
+}
+.categories-page__more-categories{
+    width: 1318px;
+    margin: 0 auto;
+    height: 117px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.categories-page__more-categories__category-url{
+    width: 304px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0047FF;
+}

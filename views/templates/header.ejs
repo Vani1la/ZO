@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/img/Favicon.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/providers.css">
+    <link rel="stylesheet" href="/css/provider.css">
+    <link rel="stylesheet" href="/css/categories.css">
+    <link rel="stylesheet" href="/css/questionary.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/fonts/Montserrat/stylesheet.css">
+    <title><%= title %></title>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <a href="/" class="logo">Zakypi<span class="optom">Optom</span></a>
+            <div class="region">Ваш регион:<br><span class="my-region">Москва</span></div>
+            <a href="/categories" class="categorys">Категории товаров</a>
+            <a href="/providers" class="providers">Поставщики</a>
+            <div class="log-reg">
+                <button onclick="openModalLogin()" class="log">Вход</button>
+                <button onclick="openModalRegister()" class="reg">Регистрация</button>
+            </div>
+            <div id="region-menu" class="region-menu">
+                <ul>
+                    <li class="region-li">1</li>
+                    <li class="region-li">2</li>
+                    <li class="region-li">3</li>
+                    <li class="region-li">4</li>
+                    <li class="region-li">5</li>
+                    <li class="region-li">6</li>
+                    <li class="region-li">7</li>
+                    <li class="region-li">8</li>
+                    <li class="region-li">9</li>
+                    <li class="region-li">10</li>
+                </ul>
+            </div>
+            <img src="./img/sandwiсh.png" alt="" class="sandwiсh" onclick="openModalMobile()">
+        </div>
+    </header>
